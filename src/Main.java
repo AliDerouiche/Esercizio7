@@ -3,7 +3,7 @@
 public class Main {
     public static void main(String[] args) {
 
-        Rectangle rectangle = new Rectangle(10, 5);
-        System.out.println(rectangle.areaCalculator());
+        Triangle triangle = new Triangle(9, 7);
+        System.out.println(triangle.areaCalculator());
     }
 }

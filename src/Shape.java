@@ -8,7 +8,7 @@ public class Shape {
     }
 
     public double areaCalculator() {
-        double area = (base * height) / 2;
+        double area = (base * height) * 2;
         return area;
     }
 
