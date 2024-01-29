@@ -1,7 +1,11 @@
-public class Triangle extends Shape {
+public class Triangle extends Shape{
+    double base;
+    double height;
 
     public Triangle(double base, double height) {
-        super(base, height);
+
+        this.base = base;
+        this.height = height;
     }
 
     @Override

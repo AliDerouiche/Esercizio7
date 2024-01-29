@@ -1,7 +1,11 @@
 public class Rectangle extends Shape {
+    double base;
+    double height;
 
     public Rectangle(double base, double height) {
-        super(base, height);
+
+        this.base = base;
+        this.height = height;
     }
 
     @Override
