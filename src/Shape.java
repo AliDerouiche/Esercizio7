@@ -1,6 +1,5 @@
-public abstract class Shape  {
+public interface Shape {
 
 
-    abstract double areaCalculator();
-
+    double areaCalculator();
 }

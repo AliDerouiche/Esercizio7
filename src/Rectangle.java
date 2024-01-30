@@ -1,4 +1,4 @@
-public class Rectangle extends Shape {
+public class Rectangle implements Shape {
     double base;
     double height;
 
@@ -8,7 +8,7 @@ public class Rectangle extends Shape {
     }
 
     @Override
-    double areaCalculator() {
+    public double areaCalculator() {
         double area = base * height;
 
         return area;

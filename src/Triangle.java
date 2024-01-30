@@ -1,4 +1,4 @@
-public class Triangle extends Shape {
+public class Triangle implements Shape {
     double base;
     double height;
 
@@ -8,7 +8,7 @@ public class Triangle extends Shape {
     }
 
     @Override
-    double areaCalculator() {
+    public double areaCalculator() {
         double area = (base * height) / 2;
 
         return area;
